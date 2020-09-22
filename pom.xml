@@ -1,12 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>crosby.binary</groupId>
   <artifactId>osmpbf</artifactId>
   <packaging>jar</packaging>
-  <version>1.3.5-SNAPSHOT</version>
+  <version>1.3.5</version>
   <name>OSM-Binary</name>
   <description>Library for the OpenStreetMap PBF format</description>
   <url>https://github.com/scrosby/OSM-binary</url>
@@ -40,6 +37,7 @@
       <connection>scm:git:http://github.com/camsys/OSM-binary.git</connection>
       <developerConnection>scm:git:ssh://git@github.com/camsys/OSM-binary.git</developerConnection>
       <url>http://github.com/camsys/OSM-binary</url>
+    <tag>osmpbf-1.3.5</tag>
   </scm>
 
   <build>
