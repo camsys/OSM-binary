@@ -37,8 +37,9 @@
   </distributionManagement>
 
   <scm>
-    <url>https://github.com/scrosby/OSM-binary</url>
-    <connection>https://github.com/scrosby/OSM-binary.git</connection>
+      <connection>scm:git:http://github.com/camsys/OSM-binary.git</connection>
+      <developerConnection>scm:git:ssh://git@github.com/camsys/OSM-binary.git</developerConnection>
+      <url>http://github.com/camsys/OSM-binary</url>
   </scm>
 
   <build>
