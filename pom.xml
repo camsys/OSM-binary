@@ -23,32 +23,18 @@
     </license>
   </licenses>
 
-  <repositories>
-    <repository>
-      <id>repo.camsys-apps.com</id>
-      <url>https://repo.camsys-apps.com/third-party/</url>
-    </repository>
+  <distributionManagement>
     <repository>
       <id>releases-camsys-public-repo</id>
-      <url>https://repo.camsys-apps.com/releases/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
+      <name>Camsys Public Release Repo</name>
+      <url>s3://repo.camsys-apps.com/releases/</url>
     </repository>
-    <repository>
+    <snapshotRepository>
       <id>snapshots-camsys-public-repo</id>
-      <url>https://repo.camsys-apps.com/snapshots/</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
+      <name>Camsys Public Snapshot Repo</name>
+      <url>s3://repo.camsys-apps.com/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <scm>
     <url>https://github.com/scrosby/OSM-binary</url>
